@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <Nav />
-    <router-link to="/home">Home</router-link>
+    <router-link to="/home">
+      <Home location="Deliver to Republic of Korea"></Home>
+    </router-link>
     <!-- <router-link to="/about">About</router-link> -->
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav.vue'
+import Home from '@/views/Home.vue'
 
 export default {
   components: {
     Nav,
+    Home,
   },
 }
 </script>

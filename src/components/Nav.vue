@@ -47,7 +47,7 @@
 #nav {
   display: block;
   width: 100%;
-  border-bottom: 1px solid #232f3e;
+  // border-bottom: 1px solid #232f3e;
   background-color: #232f3e;
   color: #fff;
   box-sizing: border-box;
