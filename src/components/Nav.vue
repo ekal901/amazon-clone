@@ -14,6 +14,13 @@
       </div>
       <div class="nav__right">
         <a>Sign in</a>
+        <div>
+          <font-awesome-icon
+            :icon="['fa', 'shopping-cart']"
+            size="2x"
+            class="cart"
+          />
+        </div>
       </div>
     </div>
     <div class="nav__search">
@@ -62,6 +69,13 @@
     }
     .nav__right {
       display: flex;
+      align-items: center;
+      a {
+        color: #fff;
+      }
+      .cart {
+        padding: 14px;
+      }
     }
   }
   .nav__search {
@@ -79,6 +93,9 @@
       border-radius: 8px;
       padding: 0 95px 0 10px;
       height: 44px;
+    }
+    &:focus {
+      outline: none;
     }
     button {
       position: absolute;
@@ -100,7 +117,10 @@
     overflow-x: scroll;
     white-space: nowrap;
     box-sizing: border-box;
-    padding-top: 12px;
+    padding-top: 14px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     a {
       width: 100px;
       color: #fff;
