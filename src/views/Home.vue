@@ -17,7 +17,7 @@
       <div class="component__signIn pb-10">
         <div class="product__title">Sign in for the best experience</div>
         <button type="button"><span>Sign in</span></button>
-        <div><a>Create an account</a></div>
+        <div class="signUp"><a href="">Create an account</a></div>
       </div>
       <Product></Product>
     </div>
@@ -73,6 +73,14 @@ export default {
     span {
       line-height: 1.35;
       font-size: 16px;
+    }
+  }
+  .a__link {
+    font-size: 14px;
+    padding: 12px 00px 12px 0px;
+    a,
+    a:link {
+      color: #007185;
     }
   }
 }

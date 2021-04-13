@@ -187,6 +187,13 @@ body {
 }
 
 // common style
+a,
+a:link {
+  font-size: 14px;
+  padding: 12px 00px 12px 0px;
+  color: #007185;
+}
+
 .pb-10 {
   margin-bottom: 10px !important;
 }

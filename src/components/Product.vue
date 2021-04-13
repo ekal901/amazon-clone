@@ -2,9 +2,12 @@
   <div>
     <div class="product__wrap">
       <div class="product__title">{product Title}</div>
-      <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
-      <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
-      <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
+      <div>
+        <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
+        <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
+        <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
+        <div class="a__link"><a href="">See more</a></div>
+      </div>
     </div>
   </div>
 </template>
