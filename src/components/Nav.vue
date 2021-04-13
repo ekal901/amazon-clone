@@ -43,6 +43,9 @@
   </div>
 </template>
 
+<script>
+</script>
+
 <style lang="scss">
 #nav {
   display: block;

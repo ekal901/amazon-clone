@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
 @charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -183,5 +183,14 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #000;
+  background-color: #d5dbdb;
+}
+
+// common style
+.pb-10 {
+  margin-bottom: 10px !important;
+}
+.pb-15 {
+  margin-bottom: 15px !important;
 }
 </style>
