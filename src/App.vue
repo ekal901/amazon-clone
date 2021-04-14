@@ -5,17 +5,20 @@
       <Home location="Deliver to Republic of Korea"></Home>
     </router-link>
     <!-- <router-link to="/about">About</router-link> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from '@/components/Nav.vue'
 import Home from '@/views/Home.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
     Nav,
     Home,
+    Footer,
   },
 }
 </script>
@@ -174,7 +177,7 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -187,17 +190,29 @@ body {
 }
 
 // common style
-a,
-a:link {
+.a__link {
   font-size: 14px;
-  padding: 12px 00px 12px 0px;
   color: #007185;
 }
 
-.pb-10 {
+.mr-5 {
+  margin-right: 5px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.mb-10 {
   margin-bottom: 10px !important;
 }
-.pb-15 {
+.mb-15 {
   margin-bottom: 15px !important;
+}
+.line-height-bottom {
+  line-height: 43px;
+  color: #007185 !important;
+  font-size: 14px;
 }
 </style>

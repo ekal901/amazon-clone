@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="product__wrap">
-      <div class="product__title">{product Title}</div>
+    <div class="product__wrap mb-5">
+      <div class="product__title">Top Products in Camera</div>
       <div>
         <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
         <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
         <div class="img__row3"><ImgSeq /><ImgSeq /><ImgSeq /></div>
-        <div class="a__link"><a href="">See more</a></div>
+        <div><a class="line-height-bottom" href="">See more</a></div>
       </div>
     </div>
   </div>
@@ -31,6 +31,7 @@ export default {
   margin-bottom: 15px;
   line-height: 25px;
   font-size: 20px;
+  color: #000;
 }
 .img__rec {
   padding: 0;

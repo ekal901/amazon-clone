@@ -10,31 +10,45 @@
         <span>Deliver to Republic of Korea</span>
       </div>
     </div>
+
     <div>
-      <div class="img__rec pb-10">
-        <ImgRec />
-      </div>
-      <div class="component__signIn pb-10">
+      <ImgRec />
+
+      <div class="component__signIn mb-5">
         <div class="product__title">Sign in for the best experience</div>
         <button type="button"><span>Sign in</span></button>
-        <div class="signUp"><a href="">Create an account</a></div>
+        <div><a class="line-height-bottom" href="">Create an account</a></div>
       </div>
-      <Product></Product>
+
+      <ProductRow3></ProductRow3>
+      <ProductRow2></ProductRow2>
+      <ProductRow2></ProductRow2>
+      <ProductRow2></ProductRow2>
+      <ProductRow2></ProductRow2>
+      <ProductRow2></ProductRow2>
+      <ImgRec />
+      <ProductRow2></ProductRow2>
+      <ImgRec />
+      <ProductRow3></ProductRow3>
+      <ImgRec />
+      <ImgRec />
     </div>
   </div>
 </template>
 
 <script>
-import Product from '../components/Product'
 import ImgRec from '../components/images/ImgRec'
+import ProductRow2 from '../components/ProductRow2.vue'
+import ProductRow3 from '../components/ProductRow3.vue'
 export default {
   name: 'Home',
   props: {
     location: String,
   },
   components: {
-    Product,
     ImgRec,
+    ProductRow2,
+    ProductRow3,
   },
 }
 </script>
@@ -73,14 +87,6 @@ export default {
     span {
       line-height: 1.35;
       font-size: 16px;
-    }
-  }
-  .a__link {
-    font-size: 14px;
-    padding: 12px 00px 12px 0px;
-    a,
-    a:link {
-      color: #007185;
     }
   }
 }

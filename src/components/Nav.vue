@@ -127,10 +127,9 @@
     a {
       width: 100px;
       color: #fff;
-      font-weight: bold;
       margin: 0 0 20px 15px;
       padding-right: 3px;
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 }
