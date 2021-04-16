@@ -29,12 +29,10 @@
             >
           </div>
           <div><span class="mr-10">$</span><a>USD - U.S. Dollar</a></div>
-        </div>
-        <div class="footer__country">
-          <font-awesome-icon
+          <div><font-awesome-icon
             class="mr-10"
             :icon="['fab', 'canadian-maple-leaf']"
-          /><a>United States</a>
+          /><a>United States</a></div>
         </div>
       </div>
       <div class="footer__bottom--signIn">
@@ -87,10 +85,8 @@
     .footer__lang {
       display: flex;
       justify-content: space-around;
-    }
-    .footer__country {
-      text-align: center;
-      line-height: 40px;
+      flex-wrap: wrap;
+      line-height: 48px;
     }
   }
   .footer__bottom--signIn {

@@ -32,12 +32,15 @@
       <ProductRow3></ProductRow3>
       <ImgRec />
       <ImgRec />
+
+      <ProductRow1 />
     </div>
   </div>
 </template>
 
 <script>
 import ImgRec from '../components/images/ImgRec'
+import ProductRow1 from '../components/ProductRow1.vue'
 import ProductRow2 from '../components/ProductRow2.vue'
 import ProductRow3 from '../components/ProductRow3.vue'
 export default {
@@ -47,6 +50,7 @@ export default {
   },
   components: {
     ImgRec,
+    ProductRow1,
     ProductRow2,
     ProductRow3,
   },
@@ -68,6 +72,7 @@ export default {
     width: 100%;
     span {
       margin-left: 10px;
+      font-size: 12px;
     }
   }
 }
