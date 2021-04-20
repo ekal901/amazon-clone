@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <Nav />
-    <router-link to="/home">
-      <Home location="Deliver to Republic of Korea"></Home>
-    </router-link>
-    <!-- <router-link to="/about">About</router-link> -->
+    <router-view>
+      <router-link to="/home">
+        <Home location="Deliver to Republic of Korea"></Home>
+      </router-link>
+    </router-view>
     <Footer />
   </div>
 </template>
@@ -187,6 +188,12 @@ body {
   font-weight: 400;
   color: #000;
   background-color: #d5dbdb;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.3;
 }
 
 // common style

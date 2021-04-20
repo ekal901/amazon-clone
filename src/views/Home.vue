@@ -16,7 +16,7 @@
 
       <div class="component__signIn mb-5">
         <div class="product__title">Sign in for the best experience</div>
-        <button type="button"><span>Sign in</span></button>
+        <button type="button" @click="viewSignIn"><span>Sign in</span></button>
         <div><a class="line-height-bottom" href="">Create an account</a></div>
       </div>
 
@@ -53,6 +53,11 @@ export default {
     ProductRow1,
     ProductRow2,
     ProductRow3,
+  },
+  methods: {
+    viewSignIn: function() {
+      this.$router.push('/signIn');
+    }
   },
 }
 </script>

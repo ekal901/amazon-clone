@@ -67,7 +67,7 @@
       </button>
     </div>
     <div class="nav__menu">
-      <a>Best Sellers</a>
+      <router-link :to="{path: '/about'}">Best Sellers</router-link>
       <a>Video</a>
       <a>New Release</a>
       <a>Home</a>
